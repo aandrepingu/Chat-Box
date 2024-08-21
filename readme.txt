@@ -1,4 +1,4 @@
-To start the application, there are 4 files in the script folder which are important. If you are on Linux, the following scripts you will run will start with the word “linux.” If you are on Windows, the scripts will start with “win.” 
+To start the application, there are 4 scripts in the script folder which must ne used. If you are on Linux, the following scripts you will run will start with the word “linux.” If you are on Windows, the scripts will start with “win.” 
 
 Prior to running the application itself, you must have a server running. To start a server, you must run the “RunServer” script. After that, you can run as many application as you want per user. To run the application, you will run the “RunApp” script. All scripts must be run within in the scripts directory.
 
