@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.rpi.cs.chat.chatapp.RegisterController">
+    <buttonTypes>
+        <ButtonType fx:constant="OK" />
+        <ButtonType fx:constant="CANCEL" />
+    </buttonTypes>
+    <graphic>
+        <GridPane alignment="CENTER" prefHeight="204.0" prefWidth="493.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="350.0" text="Username:">
+               <font>
+                  <Font size="27.0" />
+               </font></Label>
+                <TextField fx:id="UsernameText" GridPane.columnIndex="1" />
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="376.0" text="Password:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="27.0" />
+               </font></Label>
+                <TextField fx:id="PasswordText" prefHeight="25.0" prefWidth="270.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            </children>
+        </GridPane>
+    </graphic>
+</DialogPane>

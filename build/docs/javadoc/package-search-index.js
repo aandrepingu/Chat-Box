@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"edu.rpi.cs.chat.chat"},{"l":"edu.rpi.cs.chat.chat.data.models"},{"l":"edu.rpi.cs.chat.chat.data.repository"}];updateSearchResults();
